@@ -10,9 +10,10 @@ cd Deployment
 ```
 
 #prepare_app.sh 
-script prepares environment for deployment as per workshop.
+Script prepares environment for deployment as per workshop.
 
-Following steps are performed by prepare_app.sh
+Steps are performed by prepare_app.sh
+-------------------------------------
 1. npm install to build infrastructure.js
 2. creates deploy directory with blue and green
 3. Initialize bare repo in deploy/gree.git and deploy/blue.git
