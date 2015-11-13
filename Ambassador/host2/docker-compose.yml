@@ -7,6 +7,7 @@ ambassador:
     - "6379"
 app:
    build: ../App/.
+   image: mpancha/app:ambassador
    links:
     - ambassador:redis
    ports:

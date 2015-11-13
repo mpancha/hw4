@@ -1,6 +1,6 @@
 redis:
-   build: ../redis/.
-   # image: redis
+   # build: ../redis/.
+   image: mpancha/redis
 
 ambasador:
    # build: ../amba/.
