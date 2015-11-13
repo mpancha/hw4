@@ -9,7 +9,7 @@ FROM ubuntu:14.04
 # Install Redis.
 RUN \
   cd /tmp && \
-  apt-get install -y wget && \
+  apt-get update && apt-get install -y build-essential wget && \
   wget http://download.redis.io/redis-stable.tar.gz && \
   tar xvzf redis-stable.tar.gz && \
   cd redis-stable && \

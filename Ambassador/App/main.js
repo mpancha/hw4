@@ -11,7 +11,8 @@ var lb = express()
 var proxy = httpProxy.createProxyServer({});
 
 // REDIS client
-var client = redis.createClient(6379, '127.0.0.1', {})
+var redisIp = process.env.REDIS_PORT_6379_TCP_ADDR
+var client = redis.createClient(6379, redisIp, {})
 
 // Proxy logic
 lb.get('*', function(req, res) {
