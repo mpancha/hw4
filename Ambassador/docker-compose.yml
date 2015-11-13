@@ -1,0 +1,12 @@
+redis:
+   # build: redis/.
+   image: crosbymichael/redis
+
+ambasador:
+   # build: amba/.
+   image: svendowideit/ambassador
+   links:
+     - redis:redis
+   ports:
+     - 6379:6379
+

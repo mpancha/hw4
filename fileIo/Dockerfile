@@ -1,6 +1,6 @@
 FROM ubuntu:14.04
 
-RUN sudo apt-get update && sudo apt-get install socat
-
+RUN apt-get update && apt-get install -y socat
+COPY appfile /tmp/appfile
 EXPOSE 9001
-CMD ["echo","\"Hello from Legacy App\"", ">","appfile"]
+CMD ["socat","TCP4-LISTEN:9001","SYSTEM:/bin/cat /tmp/appfile"]
