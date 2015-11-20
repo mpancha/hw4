@@ -3,8 +3,8 @@ var httpProxy = require('http-proxy');
 var exec = require('child_process').exec;
 var request = require("request");
 
-var GREEN = 'http://localhost:5060';
-var BLUE  = 'http://localhost:9090';
+var GREEN = 'http://152.7.99.186:5060';
+var BLUE  = 'http://152.7.99.186:9090';
 
 var TARGET = BLUE;
 
