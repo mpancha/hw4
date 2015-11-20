@@ -4,11 +4,11 @@ GIT_WORK_TREE=$ROOT/../green-www/ git checkout -f
 cd $ROOT/../green-www/
 #npm install
 sudo docker build -t ncsu-app .
-sudo docker tag ncsu-app localhost:5000/ncsu:latest
-sudo docker push localhost:5000/ncsu:latest
-sudo docker pull localhost:5000/ncsu:latest
+sudo docker tag ncsu-app localhost:5000/ncsu-green:latest
+sudo docker push localhost:5000/ncsu-green:latest
+sudo docker pull localhost:5000/ncsu-green:latest
 sudo docker stop app_green
 sudo docker rm app_green
-sudo docker rmi localhost:5000/ncsu:current
-sudo docker tag localhost:5000/ncsu:latest localhost:5000/ncsu:current
-sudo docker run -p 5060:8080 -d --name app_green ncsu-app
+sudo docker rmi localhost:5000/ncsu-green:current
+sudo docker tag localhost:5000/ncsu-green:latest localhost:5000/ncsu-green:current
+sudo docker run -p 5060:8080 -d --name app_green localhost:5000/ncsu-green:current
