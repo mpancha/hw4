@@ -1,5 +1,5 @@
 sudo docker build -t ncsu-app .
-sudo docker tag ncsu-app localhost:5000/ncsu:latest
+sudo docker tag -f ncsu-app localhost:5000/ncsu:latest
 sudo docker push localhost:5000/ncsu:latest
 
 #A commit will build a new docker image.
