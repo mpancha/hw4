@@ -1,10 +1,12 @@
-#Deployment
+###Deployment
 Extension to the deployment workshop to run a docker deployment process
 
-[Screencast](https://youtu.be/ix9E1tw3yk0)
+#Screencast
+----------
+[Deployment with Docker](https://youtu.be/ix9E1tw3yk0)
 
-Infrastructure setup:
 
+#Infrastructure setup:
 ```
 git clone https://github.com/mpancha/HW4
 cd Deployment
