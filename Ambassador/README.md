@@ -7,4 +7,3 @@ The architecture of ambassador pattern looks like below.
    
 [Screencast](https://youtu.be/2XWkgwooMlw)
 
-[Dockerised Deployment](Deployment/README.md)
