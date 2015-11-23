@@ -21,7 +21,7 @@ Code/Script/Configuration
 
 5. [App for set/get operation](App)
 
-Credits
--------
+Credits and References
+----------------------
 1. Sven Dowideit Ambassador [Dockerfile and Image](https://github.com/SvenDowideit/dockerfiles/tree/master/ambassador)
 2. Docker [Ambassador Pattern](https://docs.docker.com/engine/articles/ambassador_pattern_linking/)
