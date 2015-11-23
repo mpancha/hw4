@@ -1,13 +1,8 @@
 # HW4
 The link to the readme for each module can be found below:
 
-[File IO](fileIo/README.md) 
----------
+1. [File IO](fileIo) 
 
+2. [Ambassador Pattern](Ambassador)
 
-[Ambassador Pattern](Ambassador/README.md)
-------------------
-
-[Docker Deployment](Deployment/README.md)
----------------------
-
+3. [Docker Deployment](Deployment)
