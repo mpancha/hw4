@@ -1,6 +1,8 @@
 #Deployment
 Extension to the deployment workshop to run a docker deployment process
 
+[Screencast](https://youtu.be/ix9E1tw3yk0)
+
 Infrastructure setup:
 
 ```
