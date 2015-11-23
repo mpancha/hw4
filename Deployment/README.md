@@ -17,9 +17,7 @@ cd Deployment
 prepare_app.sh 
 --------------
 Script prepares environment for deployment as per workshop.
-
-Steps are performed by prepare_app.sh
-
+Following steps are executed by prepare_app.sh
 1. npm install to build infrastructure.js
 2. creates deploy directory with blue and green
 3. Initialize bare repo in deploy/gree.git and deploy/blue.git
