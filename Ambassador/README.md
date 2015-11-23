@@ -20,3 +20,7 @@ Code/Script/Configuration
 4. [docker-compose config for host 2](host2/docker-compose.yml)
 
 5. [App for set/get operation](App)
+
+Credits
+-------
+1. Sven Dowideit Ambassador [Dockerfile and Image](https://github.com/SvenDowideit/dockerfiles/tree/master/ambassador)
